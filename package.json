@@ -1,0 +1,28 @@
+{
+  "name": "lambda-error",
+  "version": "0.0.3",
+  "description": "Easy error objects in AWS Lambda functions for response mapping in AWS API Gateway",
+  "main": "index.js",
+  "scripts": {
+    "test": " ./node_modules/.bin/mocha",
+    "test:watch": " ./node_modules/.bin/mocha -w",
+    "cover": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- -R spec",
+    "codecov": "./node_modules/.bin/codecov"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "error",
+    "api",
+    "gateway"
+  ],
+  "author": "Sebastian Müller <mail@sbstjn.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "chai": "^3.5.0",
+    "codecov": "^1.0.1",
+    "istanbul": "^0.4.4",
+    "mocha": "^3.0.0"
+  }
+}
