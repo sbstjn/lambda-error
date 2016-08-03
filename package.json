@@ -1,6 +1,6 @@
 {
   "name": "lambda-error",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Easy error objects in AWS Lambda functions for response mapping in AWS API Gateway",
   "main": "index.js",
   "scripts": {
@@ -9,9 +9,9 @@
     "cover": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- -R spec",
     "codecov": "./node_modules/.bin/codecov"
   },
-	"bugs": {
-		"url" : "https://github.com/sbstjn/lambda-error/issues"
-	},
+  "bugs": {
+    "url": "https://github.com/sbstjn/lambda-error/issues"
+  },
   "keywords": [
     "aws",
     "lambda",
