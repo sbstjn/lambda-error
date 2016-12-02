@@ -12,6 +12,10 @@ var statusList = [
 		"code": 404
 	},
 	{
+		"name": "Conflict",
+		"code": 409
+	},	
+	{
 		"name": "InternalServerError",
 		"code": 500
 	}
