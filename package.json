@@ -1,7 +1,7 @@
 {
   "name": "lambda-error",
   "version": "0.0.5",
-  "description": "Easy error objects in AWS Lambda functions for response mapping in AWS API Gateway",
+  "description": "Error objects in AWS Lambda for response mapping in AWS API Gateway",
   "main": "index.js",
   "scripts": {
     "test": " ./node_modules/.bin/mocha",
